@@ -3,13 +3,13 @@
 <html>
 <head>
   <title>Maintenance Tracker App</title>
-  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/style2.css">
   <%-- Bổ sung các file CSS cần thiết tại đây nếu có --%>
 </head>
 <body>
 <div id="wrapper">
   <header id="header">
-    <h1>CodeLean Garage Maintenance</h1>
+    <h1>Garage Maintenance</h1>
   </header>
 </div>
 
@@ -21,6 +21,7 @@
     <table>
       <tr>
         <th>Maintenance ID</th>
+        <th>Car ID</th>
         <th>Description</th>
         <th>Cost</th>
         <th>Maintenance</th>
@@ -39,8 +40,9 @@
         </c:url>
         <tr>
           <td>${tempMaintenance.maintenanceID}</td>
+          <td>${tempMaintenance.carId}</td>
           <td>${tempMaintenance.description}</td>
-          <td>${tempMaintenance.cost}</td>
+          <td>${tempMaintenance.cost} VND</td>
           <td>${tempMaintenance.maintenance}</td>
           <td>
             <a href="${tempLink}" class="update-link">Update</a> |
