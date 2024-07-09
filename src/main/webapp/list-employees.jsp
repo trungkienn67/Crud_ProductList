@@ -25,7 +25,6 @@
 
         <table>
             <tr>
-                <th>NO</th>
                 <th>Employee ID</th>
                 <th>Employee Name</th>
                 <th>Birthday</th>
@@ -45,8 +44,7 @@
                     <c:param name="employeeId" value="${tempEmployee.id}"/>
                 </c:url>
                 <tr>
-                    <td>${loop.index + 1}</td> <!-- Display row number -->
-                    <td>${tempEmployee.id}</td> <!-- Display employee ID for input -->
+                    <td>${tempEmployee.id +1}</td> <!-- Display employee ID for input -->
                     <td>${tempEmployee.name}</td>
                     <td>${tempEmployee.birthday}</td>
                     <td>${tempEmployee.phoneNumber}</td>

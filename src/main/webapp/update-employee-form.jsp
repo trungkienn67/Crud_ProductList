@@ -20,9 +20,6 @@
             <input type="hidden" name="command" value="UPDATE">
             <input type="hidden" name="employeeId" value="${THE_EMPLOYEE.id}">
 
-            <label for="employeeId">Employee ID:</label>
-            <input type="text" id="employeeId" name="employeeId" value="${THE_EMPLOYEE.id}" required>
-
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" value="${THE_EMPLOYEE.name}" required>
 

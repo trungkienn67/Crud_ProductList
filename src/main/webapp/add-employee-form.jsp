@@ -18,9 +18,6 @@
         <form action="EmployeeControllerServlet" method="GET">
             <input type="hidden" name="command" value="ADD">
 
-            <label for="employeeId">Employee ID:</label>
-            <input type="text" id="employeeId" name="employeeId" required>
-
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
 
